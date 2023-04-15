@@ -1,0 +1,9 @@
+name: MeteorShower
+version: ${project.version}
+main: me.Constrasim.meteorshower.MeteorShower
+api-version: 1.16
+authors: [ Constrasim ]
+description: A simple meteorshower plugin.
+commands:
+  MeteorShower:
+

@@ -1,0 +1,58 @@
+#######################################################################
+#                                                                     #
+# __  __      _                  _____ _                              #
+# |  \/  |    | |                / ____| |                            #
+# | \  / | ___| |_ ___  ___  _ _| (___ | |__   _____      _____ _ __  #
+# | |\/| |/ _ \ __/ _ \/ _ \| '__\___ \| '_ \ / _ \ \ /\ / / _ \ '__| #
+# | |  | |  __/ ||  __/ (_) | |  ____) | | | | (_) \ V  V /  __/ |    #
+# |_|  |_|\___|\__\___|\___/|_| |_____/|_| |_|\___/ \_/\_/ \___|_|    #
+#                                                                     #
+#######################################################################
+
+# This is the config file for MeteorShower.
+# This config was generated for version 1.0.
+
+# The minimum distance (in blocks) that a fireball can spawn near a player.
+min-player-distance: 5
+
+# The maximum distance (in blocks) that a fireball can spawn near a player.
+max-player-distance: 100
+
+# The delay (in ticks) between fireball spawns. It is recommended that you keep this value above 3.
+fireball-spawn-delay: 5
+
+# The distance above the player in which a fireball will spawn. It is recommended that you keep this value above 10.
+fireball-spawn-height: 30
+
+# The pitch of the fireball after it spawns.
+fireball-pitch: 50
+
+###################################################
+#                                                 #
+#  __  __                                         #
+#  |  \/  |                                       #
+#  | \  / | ___  ___ ___  __ _  __ _  ___  ___    #
+#  | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|   #
+#  | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \   #
+#  |_|  |_|\___||___/___/\__,_|\__, |\___||___/   #
+#                             __/ |               #
+#                             |___/               #
+#                                                 #
+###################################################
+
+Messages:
+  no-permission: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is a mistake."
+  reload-message: "&aMeteorShower has been successfully reloaded and enabled!"
+  stop-command: "&aSucessfully stopped the meteor shower."
+  stop-command-error: "&cNothing changed. The meteorshower is already stopped."
+  start-command-error: "&cNothing changed. A meteorshower is already running."
+  announce-message: "&aA meteor shower has started, watch the skies!"
+  unknown-command: "&cUnknown sub-command. Please use /meteorshower help, for a list of commands."
+Help:
+  help-message:
+    - "&m&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&r &3&lMeteorShower &m&7=&8=&7=&8=&7=&8=&7=&8=&7=&8="
+    - "&8&l> &b/meteorshower start: &7Starts a meteor shower."
+    - "&8&l> &b/meteorshower stop: &7Stops the meteor shower."
+    - "&8&l> &b/meteorshower help: &7Displays this menu."
+    - "&8&l> &b/meteorshower reload: &7Reloads the config."
+    - "&m&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&m&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&m&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&7=&8=&7="
